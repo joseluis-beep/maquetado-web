@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--  la eriqueta table se utiliza para definir tablas en html. todo el contenido de la tabla, fila y celdas, se coloca dentro de esta etiqueta -->
+    <!--  la etiqueta tr se utiliza para definir filas en una tabla. cada fila puede contener celdas, que se definen utilizando las etiquetas td (para celdas de datos) y th (para celdas de encabezado) -->
+
+    <!--  la etiqueta td se utiliza para definir celdas de datos en una fila. cada etiqueta td representa una columna en la tabla -->
+
+    <!--  la etiqueta th se utiliza para definir celdas de encabezado en una fila. estas celdas suelen contener titulos o encabezados para las columnas de la tabla -->
+    
+    <table border="3"><!-- el border sirve para poder crear una tabla con lineas, sin este no se veran las lineas de la tabla -->
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Ciudad</th>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>30</td>
+            <td>Madrid</td>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>25</td>
+            <td>Barcelona</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>28</td>
+            <td>Valencia</td>
+        </tr>
+    </table>
+<br>
+    <table border="3">
+        <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+        </tr>
+        <tr>
+            <td>Camisa</td>
+            <td>$20</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Pantalón</td>
+            <td>$30</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Zapatos</td>
+            <td>$50</td>
+            <td>1</td>
+        </tr>
+    </table>
+<br>
+        <!--tabla combinada  -->
+        <table border="1">
+            <tr>
+                <th colspan="3">mundial de futbol</th> <!--celda de encabezado que abarca dos columnas  -->
+            </tr>
+            <tr>
+                <td rowspan="3">paises con mayoria de goles </td> <!--celda de datos que abarca dos filas  -->
+                <td>brasil </td> <td>230</td>
+            </tr>
+            <tr>
+                <td>alemania</td> <td>180</td>
+            </tr>
+            <tr>
+                <td>argentina</td> <td>150</td>
+            </tr>
+        </table>
+</body>
+</html>
